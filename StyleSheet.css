@@ -1,0 +1,326 @@
+﻿body {
+    background: #fff;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+p, div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #555;
+    line-height: 20px;
+}
+
+.navbar-default {
+    background: #fff;
+    height: 80px;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
+    background: #1770c2;
+      border-color: #1664AD;
+}
+
+.navbar-brand {
+    height:50px;
+    width:128px;
+    background: url(images/logo_ldk.png);
+    margin-top: 15px;    
+}
+
+    .navbar-brand.logo {
+        height: 72px;
+        width: 163px;
+        top: -11px;
+        position: relative;
+        background: url(images/logo_ldk_02.png);
+    }
+
+    .navbar-default .navbar-nav {
+        margin-top: 26px;
+    }
+    .navbar-default .container {
+        position: relative;
+    }
+        .navbar-default .navbar-nav > li > a {
+            font-size: 14px;
+            color: #CBDFF2;
+        }
+
+        .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+            border-bottom: 4px solid #EAF5FF;
+            color: #EAF5FF;
+            background-color: inherit;
+        }
+
+.cntrl-language {
+    position: absolute;
+    top:0px;
+    right: 18px;
+}
+
+.cntrl-language .btn-link{
+    color: #83BCF0;
+    font-size: 13px;
+}
+
+.cntr-title {
+    display: block;
+    margin: 10px 0 15px 0;
+    border-bottom: 1px dotted #e4e9f0;
+}
+
+.cntr-title h2{
+margin: 0 0 -2px 0;
+  padding-bottom: 5px;
+  display: inline-block;
+  border-bottom: 2px solid #1970c0;
+}
+
+.lead {
+    font-size: 16px;
+}
+
+
+.caption {
+    background: rgba(255,255,255, 0.5);
+    height: 300px;
+    width: 300px;
+    border-radius: 455px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -120px;
+    margin-left: -160px;
+    padding: 25px;
+    text-align: center;
+}
+
+    .caption h2 {
+        color: white;
+        font-weight: 700;
+        margin: 0px;
+        margin-top: 47px;
+    }
+    .caption h3 {
+        color: white;
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .caption .logo-caption {
+        height: 208px;
+        width: 207px;
+        background: url(images/logo_caption.PNG);
+        margin: 0px auto;
+    }
+
+.carousel{
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+}
+
+.carousel-inner {
+    height: 480px;
+}
+
+    .carousel-inner .item img {
+        width: 100%;
+    }
+
+.carousel-indicators {
+    bottom: -1px;
+    opacity: 0.9;
+}
+
+/*---- Seções ----*/
+.sc {
+    padding: 65px 0px;
+}
+
+.sc h2{
+    font-size: 22px;
+    color: #999;
+    font-weight: 500;
+}
+   
+
+    .sc.sc-empresa {
+        background: url(images/white_leather.png) repeat;
+        border-bottom: 1px solid #ddd;
+       
+    }
+.sc-empresa h2 {
+    margin: 0px;
+    margin-bottom: 15px;
+    color: #82ACD5;
+}
+
+.sc-empresa p{
+    color: #B9CFE4;
+}
+
+/*---- Empresa ----*/
+.cntr-img {
+    text-align: right;
+}
+.img-empresa {
+    width: 100%;
+    max-width: 290px;
+    border: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+}
+
+/*---- Produtos ----*/
+.cntr-produtos {
+    padding-top:30px;
+}
+
+.produto-item {
+    margin-bottom: 30px;
+}
+
+.img-protudo {
+    height: 180px;
+    background: #ccc;
+    border: 1px solid #bbb;
+    position: relative;
+}
+.label-info {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    max-width: 88%;
+    padding: 4px 9px;
+    background: #1770c2;
+    color:#CBDFF2;
+}
+
+.produto-01 .img-protudo{
+    background: url(images/img2.jpg)
+}
+
+.produto-02 .img-protudo{
+    background: url(images/img4.jpg)
+}
+
+.produto-03 .img-protudo{
+    background: url(images/img7.jpg)
+}
+
+.produto-04 .img-protudo{
+    background: url(images/img5.jpg)
+}
+
+.produto-05 .img-protudo{
+    background: url(images/img2.jpg)
+}
+
+.produto-06 .img-protudo{
+    background: url(images/img4.jpg)
+}
+
+
+/*---- Contato ----*/
+.form-control {
+    border: 1px solid #DDD;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.btn-send {
+    background: #317fc7;
+    border: none;
+    text-align: center;
+    border-bottom: 2px solid #1e6cb4;
+    color : white;
+    width: 100%;
+    border-radius: 0px;
+    font-weight: 600;
+}
+
+.btn-send:hover {
+    opacity: 0.5;
+    color: #fff;
+}
+
+.cntr-map{
+    width: 100%;
+    height: 300px;
+    background: #ddd;
+    border: 1px solid #ccc;
+}
+
+.sc-contato {
+    padding-top: 0px;
+    margin-top:-20px;
+}
+
+.sc-contato .infos {
+    padding-top: 30px;
+}
+
+.sc-contato p.info {
+    padding-left: 28px;
+    position: relative;
+}
+    .sc-contato p.info .glyphicon {
+        position: absolute;
+        font-size: 18px;
+        top:2px;
+        left: 0px;
+    }
+
+.alert-contato {
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.info-error {
+    display: block;
+    background: #ea6659;
+    padding: 3px 10px;
+    z-index: 999;
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    top: 1px;
+    width: 183px;
+    right: -192px;
+    -webkit-box-shadow: 3px 3px 0 0 #777;
+    box-shadow: 3px 3px 0 0 #777;
+}
+
+.preloader {
+    height: 8px;
+    width: 64px;
+    background: url(images/preloader_01.gif);
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.footer {
+    padding: 25px 0px;
+    background:#f8f8f8;
+}
+
+    .footer .logo-footer {
+        height:50px;
+        width:128px;
+        background: url(images/logo_ldk_gray.png);
+        display: inline-block;
+    }
+
+    .footer .info-footer {
+        color: #999999;
+        font-size: 11px;
+        top: -9px;
+        left: 10px;
+        position: relative;
+    }
